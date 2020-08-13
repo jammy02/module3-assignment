@@ -1,0 +1,46 @@
+body{
+	background-color: #008080;
+	font-size: 16px;
+	color: black;
+	font-family: oxygen;
+} 
+/**HEADER**/
+#header-nav {
+	background-color: #f08080;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand h1{   /*** Restaurant name ****/
+	font-family: 'Mukta', sans-serif;
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px black;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: black;
+	text-align: center;
+
+}
+#nav-list a:hover{
+	background: #E7E7E7;
+}/***** toggle button *****/
+.navbar-header button.navbar-toggle{
+	border: 1px solid #008080;
+}/****** main content ****/
+#content{
+	background-color: #f08080;
+}
+#content h2{
+	padding-top: 10px;
+}
